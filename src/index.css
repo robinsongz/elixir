@@ -1,3 +1,18 @@
+@font-face {
+  font-family: 'Apex';
+  src: url(./Fonts/ApexMk3_2FreeWeights/apex-medium.otf) format('opentype');
+}
+
+@font-face {
+  font-family: 'Evolve';
+  src: url(./Fonts/Made-Evolve/Made-Evolve-Sans-Thin-Evo.otf) format('opentype');
+}
+
+@font-face {
+  font-family: 'Quantum';
+  src: url(./Fonts/Quantum.otf) format('opentype');
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
@@ -5,6 +20,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: white;
 }
 
 code {
