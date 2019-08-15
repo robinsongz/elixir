@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/elixir/static/css/main.5934c9db.chunk.css",
+    "main.js": "/elixir/static/js/main.17970e74.chunk.js",
+    "main.js.map": "/elixir/static/js/main.17970e74.chunk.js.map",
+    "runtime~main.js": "/elixir/static/js/runtime~main.6b1415dc.js",
+    "runtime~main.js.map": "/elixir/static/js/runtime~main.6b1415dc.js.map",
+    "static/js/2.fcaf7231.chunk.js": "/elixir/static/js/2.fcaf7231.chunk.js",
+    "static/js/2.fcaf7231.chunk.js.map": "/elixir/static/js/2.fcaf7231.chunk.js.map",
+    "index.html": "/elixir/index.html",
+    "precache-manifest.a1796f918db343b6842f6ecc541b6cd1.js": "/elixir/precache-manifest.a1796f918db343b6842f6ecc541b6cd1.js",
+    "service-worker.js": "/elixir/service-worker.js",
+    "static/css/main.5934c9db.chunk.css.map": "/elixir/static/css/main.5934c9db.chunk.css.map",
+    "static/media/index.css": "/elixir/static/media/apex-medium.434a6fa1.otf",
+    "static/media/gamingpc.png": "/elixir/static/media/gamingpc.c5162d93.png",
+    "static/media/smoke.mov": "/elixir/static/media/smoke.2ec0ebe3.mov"
+  }
+}
