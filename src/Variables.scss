@@ -1,0 +1,8 @@
+@mixin flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+$max-medium: "only screen and (max-width: 750px)";
+$medium: "only screen and (min-width: 751px)";

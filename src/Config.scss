@@ -1,0 +1,91 @@
+@import './variables.scss';
+
+
+.header {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 75px;
+    margin: 50px;
+    padding: 10px;
+    font-family: 'Quantum';
+}
+
+.config {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.card-container {
+    @include flex-center;
+    flex-wrap: wrap;
+    width: 65%;
+
+    animation-name: fadeIn;
+    animation-duration: 1s;
+    animation-timing-function: ease-in;
+}
+
+.card {
+    @include flex-center;
+    flex-direction: column;
+    margin: 20px;
+    width: 300px;
+    height: 500px;
+    background-color: rgba(white, 0.6);
+    box-shadow: 0 5px 10px rgba(black, .15);
+    padding: 25px;
+    border-radius: 5px;
+    transition: transform .3s;
+
+    &:hover {
+        transform: translateY(-5px) scale(1.03);
+        cursor: pointer;
+    }
+    @media #{$max-medium} {
+        width: 100vh;
+      }
+}
+
+.card-img {
+    font-size: 30px;
+    padding: 5px;
+    max-width: 80%;
+    max-height: 80%;
+}
+
+.card-title {
+    @include flex-center;
+    margin: 20px;
+    font-weight: bold;
+    font-size: 40px;
+    text-transform: uppercase;
+    text-align: center;
+    font-family: 'Apex';
+}
+
+.card-description {
+    @include flex-center;
+    text-align: center;
+    line-height: 25px;
+    font-size: 15px;
+}
+
+.btn {
+    background-color: #f44336;
+    font-size: 25px;
+    padding: 5px 10px;
+    border-radius: 8px;
+    transition-duration: 0.2s;
+    font-family: 'Apex';
+    border-color: black;
+    margin: 10px;
+}
+
+.btn:hover {
+    background-color: #f44336;
+    color: white;
+    cursor: pointer;
+}

@@ -1,0 +1,36 @@
+.stats {
+    height: 75vh;
+    background-color: #00203FFF;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.stats-title {
+    font-size: 100px;
+    font-family: 'Apex';
+    text-align: center;
+    color: white;
+}
+
+.col-title {
+    font-size: 50px;
+    color: white;
+    margin: 10px;
+}
+
+.icon {
+    font-size: 150px;
+    color: white;
+}
+
+.row {
+    margin-top: 100px;
+}
+
+.col-desc {
+    color: white;
+    font-size: 20px;
+    margin-left: 250px;
+    margin-right: 250px;
+    margin-top: 50px;
+}
